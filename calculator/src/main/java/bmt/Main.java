@@ -13,14 +13,40 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         Calculator calculator = new Calculator();
 
+    //Memvalidasi angka pertama
+    int operand1;
+    while (true){
         System.out.print("Masukkan angka pertama: ");
-        int operand1 = scanner.nextInt();
+        try {
+            operand1 = Integer.parseInt(scanner.nextLine());
+            break;
+        } catch (NumberFormatException e){
+            System.out.println("Masukkan harus berupa angka.");
+        }
+    }
+    //Memvalidasi angka kedua
+    int operand2;
+    while (true){
         System.out.print("Masukkan angka kedua: ");
-        int operand2 = scanner.nextInt();
+        try {
+            operand2 = Integer.parseInt(scanner.nextLine());
+            break;
+        } catch (NumberFormatException e){
+            System.out.println("Masukkan harus berupa angka.");
+        }
+    }
 
+    String operator;
+    while (true){
         System.out.print("Pilih operasi ( +, -, *, /): ");
-        String operator = scanner.next();
+        operator = scanner.nextLine();
+        if (operator.matches("[+\\-*\\/]")){
+            break;
+        } else{
+            System.out.println("Operasi tidak valid.");
+        }
 
+    }
         int result;
         switch (operator) {
             case "+":
@@ -33,6 +59,10 @@ public class Main {
                 result = calculator.multiply(operand1, operand2);
                 break;
             case "/":
+                if (operand2==0){
+                    System.out.println("Error: Tidak dapat dibagi dengan 0.");
+                    return;
+                }
                 result = calculator.divide(operand1, operand2);
                 break;
             default:
