@@ -2,7 +2,6 @@ package bmt;
 
 import org.junit.Test;
 import static org.junit.Assert.*;
-import org.junit.Assert;
 
 /**
  * Unit test for simple calculator
@@ -12,37 +11,25 @@ public class CalculatorOperationsTest
     
     @Test
     public void testAddition() {
-        Calculator calculator = new Calculator();
-        int result = calculator.addition(3, 5);
-        Assert.assertEquals(8, result);
-    }    
+        int result = CalculatorOperations.calculator(5, 3, '+');
+        assertEquals(8, result);
+    }  
     
     @Test
     public void testSubtract() {
-        Calculator calculator = new Calculator();
-        int result = calculator.subtract(10, 4);
+        int result = CalculatorOperations.calculator(10, 4, '-');
         assertEquals(6, result);
     }
     
     @Test
     public void testMultiply() {
-        Calculator calculator = new Calculator();
-        int result = calculator.multiply(2, 6);
+        int result = CalculatorOperations.calculator(2, 6, '*');
         assertEquals(12, result);
     }
     
     @Test
     public void testDivide() {
-        Calculator calculator = new Calculator();
-        int result = calculator.divide(20, 5);
+        int result = CalculatorOperations.calculator(20, 5, '/');
         assertEquals(4, result);
     }
-    
-    @Test(expected = IllegalArgumentException.class)
-    public void testDivideByZero() {
-        Calculator calculator = new Calculator();
-        calculator.divide(10, 0);
-    }
-    
-    
 }

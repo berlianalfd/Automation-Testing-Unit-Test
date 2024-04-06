@@ -9,67 +9,35 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        @SuppressWarnings("resource")
         Scanner scanner = new Scanner(System.in);
-        Calculator calculator = new Calculator();
-        Validation validation = new Validation();
-
-<<<<<<< HEAD
-        //Memvaldasi angka pertama
-        int angkaKeSatu = validation.validationNumberInput(scanner, "Masukkan angka pertama: ");
-        //Memvaldasi angka pertama
-        int angkaKeDua = validation.validationNumberInput(scanner, "Masukkan angka kedua: ");
-        //Memvalidasi operator
-        String operator = validation.validateOperator(scanner);
-=======
-    //Memvalidasi angka pertama
-    int angkaKeSatu;
-    while (true){
-        System.out.print("Masukkan angka pertama: ");
+    
         try {
-            angkaKeSatu = Integer.parseInt(scanner.nextLine());
-            break;
-        } catch (NumberFormatException e){
-            System.out.println("Masukkan harus berupa angka.");
+            System.out.println("Masukkan angka pertama:");
+            int angkaKeSatu = Integer.parseInt(scanner.nextLine());
+    
+            System.out.println("Masukkan operator (+, -, *, /):");
+            char operator = scanner.nextLine().charAt(0); // Menggunakan nextLine() untuk membaca operator
+    
+            System.out.println("Masukkan angka kedua:");
+            int angkaKeDua = Integer.parseInt(scanner.nextLine());
+    
+            Validation validator = new Validation();
+            validator.Validasi(angkaKeSatu, angkaKeDua, operator);
+    
+            int result = CalculatorOperations.calculator(angkaKeSatu, angkaKeDua, operator);
+            System.out.println("Hasil: " + result);
+        } catch (NumberFormatException e) {
+            System.out.println("Nilai yang dihitung harus angka, tidak boleh karakter");
+            // Program berhenti setelah menangkap pengecualian
+            System.exit(0);
+        } catch (IllegalArgumentException e) {
+            System.out.println(e.getMessage());
+            // Program berhenti setelah menangkap pengecualian
+            System.exit(0);
         }
+    
+        scanner.close();
     }
-    //Memvalidasi angka kedua
-    int angkaKeDua;
-    while (true){
-        System.out.print("Masukkan angka kedua: ");
-        try {
-            angkaKeDua = Integer.parseInt(scanner.nextLine());
-            break;
-        } catch (NumberFormatException e){
-            System.out.println("Masukkan harus berupa angka.");
-        }
-    }
->>>>>>> db945626197bd47a9bb08f3f79072c6865771d68
+    
 
-        int result;
-        switch (operator) {
-            case "+":
-                result = calculator.addition(angkaKeSatu, angkaKeDua);
-                break;
-            case "-":
-                result = calculator.subtract(angkaKeSatu, angkaKeDua);
-                break;
-            case "*":
-                result = calculator.multiply(angkaKeSatu, angkaKeDua);
-                break;
-            case "/":
-                if (angkaKeDua==0){
-                    System.out.println("Error: Tidak dapat dibagi dengan 0.");
-                    return;
-                }
-                result = calculator.divide(angkaKeSatu, angkaKeDua);
-                break;
-            default:
-                System.out.println("Operasi tidak valid");
-                return;
-        }
-
-        System.out.println("Hasil: " + result);
-    }
-
-}
+}    
