@@ -14,22 +14,22 @@ public class Main {
         Calculator calculator = new Calculator();
 
     //Memvalidasi angka pertama
-    int operand1;
+    int angkaKeSatu;
     while (true){
         System.out.print("Masukkan angka pertama: ");
         try {
-            operand1 = Integer.parseInt(scanner.nextLine());
+            angkaKeSatu = Integer.parseInt(scanner.nextLine());
             break;
         } catch (NumberFormatException e){
             System.out.println("Masukkan harus berupa angka.");
         }
     }
     //Memvalidasi angka kedua
-    int operand2;
+    int angkaKeDua;
     while (true){
         System.out.print("Masukkan angka kedua: ");
         try {
-            operand2 = Integer.parseInt(scanner.nextLine());
+            angkaKeDua = Integer.parseInt(scanner.nextLine());
             break;
         } catch (NumberFormatException e){
             System.out.println("Masukkan harus berupa angka.");
@@ -50,20 +50,20 @@ public class Main {
         int result;
         switch (operator) {
             case "+":
-                result = calculator.addition(operand1, operand2);
+                result = calculator.addition(angkaKeSatu, angkaKeDua);
                 break;
             case "-":
-                result = calculator.subtract(operand1, operand2);
+                result = calculator.subtract(angkaKeSatu, angkaKeDua);
                 break;
             case "*":
-                result = calculator.multiply(operand1, operand2);
+                result = calculator.multiply(angkaKeSatu, angkaKeDua);
                 break;
             case "/":
-                if (operand2==0){
+                if (angkaKeDua==0){
                     System.out.println("Error: Tidak dapat dibagi dengan 0.");
                     return;
                 }
-                result = calculator.divide(operand1, operand2);
+                result = calculator.divide(angkaKeSatu, angkaKeDua);
                 break;
             default:
                 System.out.println("Operasi tidak valid");
