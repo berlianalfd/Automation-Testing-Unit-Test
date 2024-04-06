@@ -7,16 +7,6 @@ import java.util.Scanner;
  * Date : 4 April 2024
  */
 
-// public class Main {
-// public static void main(String[] args) {
-// @SuppressWarnings("resource")
-// Scanner scanner = new Scanner(System.in);
-// System.out.print("Masuukan kalimat = ");
-// String kalimat = scanner.nextLine();
-// System.out.println(kalimat);
-// }
-// }
-
 public class Main {
     public static void main(String[] args) {
         @SuppressWarnings("resource")
@@ -28,11 +18,14 @@ public class Main {
         System.out.print("Masukkan angka kedua: ");
         int operand2 = scanner.nextInt();
 
-        System.out.print("Pilih operasi ( -, *, /): ");
+        System.out.print("Pilih operasi ( +, -, *, /): ");
         String operator = scanner.next();
 
         int result;
         switch (operator) {
+            case "+":
+                result = calculator.addition(operand1, operand2);
+                break;
             case "-":
                 result = calculator.subtract(operand1, operand2);
                 break;

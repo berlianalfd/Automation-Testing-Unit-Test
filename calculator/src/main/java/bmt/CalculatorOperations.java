@@ -7,19 +7,27 @@ package bmt;
  */
 
 public class CalculatorOperations {
-    public int subtract(int a, int b) {
-        return a - b;
+    // operasi penjumlahan
+    public int addition(int angkaKeSatu, int angkaKeDua){
+        return angkaKeSatu + angkaKeDua;
+    }
+    
+    // operasi pengurangan
+    public int subtract(int angkaKeSatu, int angkaKeDua) {
+        return angkaKeSatu - angkaKeDua;
     }
 
-    public int multiply(int a, int b) {
-        return a * b;
+    // operasi perkalian
+    public int multiply(int angkaKeSatu, int angkaKeDua) {
+        return angkaKeSatu * angkaKeDua;
     }
 
-    public int divide(int a, int b) {
-        if (b == 0) {
-            throw new IllegalArgumentException("Error: Pembagi tidak boleh nol");
+    // operasi pembagian
+    public int divide(int pembilang, int penyebut) {
+        if (penyebut == 0) {
+            throw new IllegalArgumentException("Error: Penyebut tidak boleh nol");
         }
-        return a / b;
+        return pembilang / penyebut;
     }
 }
 
