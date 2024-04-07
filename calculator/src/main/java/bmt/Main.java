@@ -8,7 +8,7 @@ import java.util.Scanner;
  * Description: Program untuk melakukan operasi aritmatika sederhana.
  */
 
-public class Main {
+ public class Main {
     public static void main(String[] args) {
         @SuppressWarnings("resource")
         Scanner scanner = new Scanner(System.in);
@@ -28,7 +28,7 @@ public class Main {
             validator.Validasi(angkaKeSatu, operator, 1);
 
             // Input angka kedua
-            System.out.print("Masukkan angka kedua: ");
+            System.out.println("Masukkan angka kedua: ");
             int angkaKeDua = Integer.parseInt(scanner.nextLine());
     
             // Validasi angka kedua

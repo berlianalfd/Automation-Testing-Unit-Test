@@ -14,9 +14,15 @@ public class ValidationTest {
     }
     
     @Test(expected = IllegalArgumentException.class)
-    public void testValidasiInputOutOfRange() {
+    public void testValidasiInputOverOfRange() {
         Validation validation = new Validation();
-        validation.Validasi(40000, '-', 1000); // Input melebihi range
+        validation.Validasi(40000, '+', 1000); // Input melebihi range
+    }
+
+    @Test(expected = IllegalArgumentException.class)
+    public void testValidasiInputLessOfRange() {
+        Validation validation = new Validation();
+        validation.Validasi(-40000, '-', 1000); // Input kurang dari range
     }
     
     @Test(expected = IllegalArgumentException.class)
