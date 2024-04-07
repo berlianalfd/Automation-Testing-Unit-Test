@@ -7,11 +7,17 @@ import org.junit.Test;
  */
 public class ValidationTest {
     
+    // @Test(expected = NumberFormatException.class)
+    // public void testValidasiInputNonNumerik(){
+    //     Validation validation = new Validation();
+    //     validation.Validasi(10, '+', 'a'); // Input tidak numerik
+    // }
+
     @Test(expected = NumberFormatException.class)
-    public void testValidasiInputNonNumerik(){
-        Validation validation = new Validation();
-        validation.Validasi(10, '+', 'a'); // Input tidak numerik
-    }
+        public void testValidasiInputNonNumerik() {
+            Validation validation = new Validation();
+            validation.ValidasiInput("k"); // Memanggil ValidasiInput langsung dengan input tidak numerik
+        }
     
     @Test(expected = IllegalArgumentException.class)
     public void testValidasiInputOverOfRange() {
