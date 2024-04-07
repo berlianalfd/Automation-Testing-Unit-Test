@@ -21,7 +21,7 @@
     <property name="sun.java.command" value="C:\Users\ASUS\AppData\Local\Temp\surefire6450222705106266996\surefirebooter4475577541705414444.jar C:\Users\ASUS\AppData\Local\Temp\surefire6450222705106266996 2024-04-07T10-00-20_319-jvmRun1 surefire2904186037931049196tmp surefire_03436281685709440781tmp"/>
     <property name="surefire.test.class.path" value="C:\Users\ASUS\Documents\TINGKAT3\SEMESTER_6\PPL\PRAKTEK\W8_clone\Automation-Testing-Unit-Test\calculator\target\test-classes;C:\Users\ASUS\Documents\TINGKAT3\SEMESTER_6\PPL\PRAKTEK\W8_clone\Automation-Testing-Unit-Test\calculator\target\classes;C:\Users\ASUS\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\ASUS\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
-    <property name="user.home" value="C:\Users\ASUS"/>
+    <property name="user.home" value="C:\Users\Berliana Elfada"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="java.home" value="C:\Program Files\Zulu\zulu-8\jre"/>
@@ -62,7 +62,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="testSubtract" classname="bmt.CalculatorOperationsTest" time="0.004"/>
+  <testcase name="testSubtract" classname="bmt.CalculatorOperationsTest" time="0.003"/>
   <testcase name="testAddition" classname="bmt.CalculatorOperationsTest" time="0"/>
   <testcase name="testDivide" classname="bmt.CalculatorOperationsTest" time="0.002"/>
   <testcase name="testMultiply" classname="bmt.CalculatorOperationsTest" time="0.001"/>

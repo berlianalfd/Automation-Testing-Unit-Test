@@ -3,12 +3,14 @@ package bmt;
 import java.util.Scanner;
 
 /**
- * Author : Berliana, Cintia, Yane
- * Date : 4 April 2024
+ * Author: Berliana, Cintia, Yane
+ * Date: 4 April 2024
+ * Description: Program untuk melakukan operasi aritmatika sederhana.
  */
 
 public class Main {
     public static void main(String[] args) {
+        @SuppressWarnings("resource")
         Scanner scanner = new Scanner(System.in);
         Validation validator = new Validation();
     
@@ -25,14 +27,16 @@ public class Main {
             // Validasi operator
             validator.Validasi(angkaKeSatu, operator, 1);
 
-            System.out.println("Masukkan angka kedua:");
+            // Input angka kedua
+            System.out.print("Masukkan angka kedua: ");
             int angkaKeDua = Integer.parseInt(scanner.nextLine());
     
             // Validasi angka kedua
             validator.Validasi(angkaKeSatu, operator, angkaKeDua);
     
+            // Hitung dan tampilkan hasil
             int result = CalculatorOperations.calculator(angkaKeSatu, angkaKeDua, operator);
-            System.out.println("Hasil: " + result);
+            System.out.println("HASIL: " + result);
         } catch (NumberFormatException e) {
             System.out.println("Nilai tidak boleh karakter atau huruf");
             System.exit(0);
@@ -40,7 +44,5 @@ public class Main {
             System.out.println(e.getMessage());
             // System.exit(0);
         }
-    
-        scanner.close();
     }
 }
