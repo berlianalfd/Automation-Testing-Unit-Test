@@ -3,42 +3,42 @@ package bmt;
 import java.util.Scanner;
 
 /**
- * Author : Berliana, Cintia, Yane
- * Date : 4 April 2024
+ * Author: Berliana, Cintia, Yane
+ * Date: 4 April 2024
+ * Description: Program untuk melakukan operasi aritmatika sederhana.
  */
 
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-    
+        
         try {
-            System.out.println("Masukkan angka pertama:");
-            int angkaKeSatu = Integer.parseInt(scanner.nextLine());
-    
-            System.out.println("Masukkan operator (+, -, *, /):");
+            // Input angka pertama
+            System.out.print("Masukkan angka pertama: ");
+            int firstNumber = Integer.parseInt(scanner.nextLine());
+            
+            // Input operator
+            System.out.print("Masukkan operator (+, -, *, /): ");
             char operator = scanner.nextLine().charAt(0); 
 
             Validation validator = new Validation();
-            validator.Validasi(angkaKeSatu, operator, 0);
+            validator.Validasi(firstNumber, operator, 0);
 
-            System.out.println("Masukkan angka kedua:");
-            int angkaKeDua = Integer.parseInt(scanner.nextLine());
+            // Input angka kedua
+            System.out.print("Masukkan angka kedua: ");
+            int secondNumber = Integer.parseInt(scanner.nextLine());
     
-            validator.Validasi(angkaKeSatu, operator, angkaKeDua);
+            validator.Validasi(firstNumber, operator, secondNumber);
     
-            int result = CalculatorOperations.calculator(angkaKeSatu, angkaKeDua, operator);
-            System.out.println("Hasil: " + result);
+            // Hitung dan tampilkan hasil
+            int result = CalculatorOperations.calculator(firstNumber, secondNumber, operator);
+            System.out.println("HASIL: " + result);
         } catch (NumberFormatException e) {
-            System.out.println("Nilai yang dihitung harus angka, tidak boleh karakter atau huruf");
-            System.exit(0);
+            System.out.println("Error: Nilai yang dihitung harus angka, tidak boleh karakter atau huruf");
         } catch (IllegalArgumentException e) {
             System.out.println(e.getMessage());
-            System.exit(0);
+        } finally {
+            scanner.close();
         }
-    
-        scanner.close();
     }
-    
-
-}    
-
+}

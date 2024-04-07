@@ -5,26 +5,25 @@ package bmt;
  *  Date   : 4 April 2024
  */
 
-public class CalculatorOperations {
+ public class CalculatorOperations {
     public static int calculator(int angkaKeSatu, int angkaKeDua, char operator) {
         int result = 0;
         switch (operator) {
-            case '+' :
+            case '+': // Penjumlahan
                 result = angkaKeSatu + angkaKeDua;
                 break;
-            case '-':
+            case '-': // Pengurangan
                 result = angkaKeSatu - angkaKeDua;
                 break;
-            case '*':
+            case '*': // Perkalian
                 result = angkaKeSatu * angkaKeDua;
                 break;
-            case '/':
+            case '/': // Pembagian
                 result = angkaKeSatu / angkaKeDua;
                 break;
-            default:
+            default: // Operator tidak valid
                 throw new IllegalArgumentException("Error: Operator tidak valid.");
         }
         return result;
     }
 }
-

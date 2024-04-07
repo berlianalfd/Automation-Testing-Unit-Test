@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: bmt.ValidationTest
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0.007 s <<< FAILURE! - in bmt.ValidationTest
+testValidasiDivisionByZero(bmt.ValidationTest)  Time elapsed: 0.005 s  <<< FAILURE!
+java.lang.AssertionError: Expected exception: java.lang.IllegalArgumentException
+
+testValidasiOutOfRange(bmt.ValidationTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: Expected exception: java.lang.IllegalArgumentException
+
+testValidasiNonNumericInput(bmt.ValidationTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.AssertionError: Expected exception: java.lang.IllegalArgumentException
+
