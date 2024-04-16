@@ -1,5 +1,5 @@
-**Program Kalkulator Kelompok A8**
-Program kalkulator sederhana java menggunakan maven untuk melakukan operasi aritmatika dasar seperti penjumlahan, pengurangan, perkalian, dan pembagian.
+**Program Kalkulator Kelompok A8** 
+menggunakan maven untuk melakukan operasi aritmatika dasar seperti penjumlahan, pengurangan, perkalian, dan pembagian.
 
 **Creator**
 Berliana, Cintia, Yane
