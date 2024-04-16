@@ -37,3 +37,6 @@ Program ini mencakup pengujian unit untuk memastikan kebenaran operasi aritmatik
 1. Perintah "mvn test" dijalankan di terminal untuk menguji semua class sekaligus
 2. Perintah "mvn -Dtest=MainTest#testAddition test" dijalankan di terminal untuk menguji satu method test spesifik dari satu    class test.
 3. Untuk menguji semua class pada file validation.java, klik tombol "running" disebelah kiri yang berbentuk segitiga yang       menunjuk ke kanan.
+
+## Generate report by tools
+Untuk melakukan generate report dengan menggunakan tools maven, terlibih dahulu harus menambahkan <reporting> pada file pom.xml yang terdapat pada line (31 sampai 40)
