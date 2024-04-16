@@ -23,7 +23,11 @@ Program ini mencakup pengujian unit untuk memastikan kebenaran operasi aritmatik
 ## Notes
 1. Program ini membatasi rentang angka antara -32,768 dan 32,767.
 2. Pembagian dengan nol tidak diperbolehkan.
-3. Hanya input angka yg dapat dioperasikan.
+3. Hanya input angka yg dapat dioperasikan. Ini berarti karakter dan huruf tidak diperbolehkan.
+4. Pada program kalkulator ini hanya mendukung operasi aritmatika dasar seperti, penjumlahan, pengurangan, perkalian dan pembagian.
+5. Program hanya dapat menerima input dua angka. Ini berarti operasi yang memerlukan lebih dari dua operand, seperti perkalian matrik atau kalkulasi persentase, tidak dapat     dilakukan.
+6. Program hanya dapat menerima input bilangan bulat. Ini berarti angka desimal (float) tidak dapat diproses.
+7. Hasil perhitungan akan selalu berupa bilangan bulat.
 
 ## Running the program
 1. Menjalankan perintah "mvn package exec:java" pada terminal untuk mengkompilasi source code menjadi file JAR.
