@@ -24,3 +24,12 @@ Program ini mencakup pengujian unit untuk memastikan kebenaran operasi aritmatik
 1. Program ini membatasi rentang angka antara -32,768 dan 32,767.
 2. Pembagian dengan nol tidak diperbolehkan.
 3. Hanya input angka yg dapat dioperasikan.
+
+## Running the program
+1. Menjalankan perintah "mvn package exec:java" pada terminal untuk mengkompilasi source code menjadi file JAR.
+2. Untuk running program jalankan perintah "mvn exec:java" pada terminal
+
+## Test the program
+1. Perintah "mvn test" dijalankan di terminal untuk menguji semua class sekaligus
+2. Perintah "mvn -Dtest=MainTest#testAddition test" dijalankan di terminal untuk menguji satu method test spesifik dari satu    class test.
+3. Untuk menguji semua class pada file validation.java, klik tombol "running" disebelah kiri yang berbentuk segitiga yang       menunjuk ke kanan.
