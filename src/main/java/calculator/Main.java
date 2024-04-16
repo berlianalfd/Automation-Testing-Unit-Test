@@ -38,8 +38,6 @@ public class Main {
     
             // Hitung dan tampilkan hasil
             int result = CalculatorOperations.calculator(angkaKeSatu, angkaKeDua, operator);
-            System.out.println("HASIL: " + result);
-
         } catch (NumberFormatException e) {
             // Panggil ValidasiInput untuk menampilkan pesan kesalahan
             try {
@@ -50,6 +48,6 @@ public class Main {
         } catch (IllegalArgumentException e) {
             System.out.println(e.getMessage());
         }
+        System.out.println("HASIL: " + result);
     }
-    
 }
