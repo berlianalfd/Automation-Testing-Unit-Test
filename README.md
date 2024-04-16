@@ -5,9 +5,9 @@ menggunakan maven untuk melakukan operasi aritmatika dasar seperti penjumlahan, 
 Program ini dibuat untuk memenuhi kebutuhan pengguna dalam melakukan operasi aritmatika sederhana. Pengguna dapat memasukkan dua angka dan sebuah operator (+, -, *, /) untuk mendapatkan hasilnya. Program ini dirancang untuk melakukan pengujian white box dengan menggunakan build tools Maven.
 
 ## Creator
-> 211524004 Berliana
-> 211524005 Cintia
-> 211524029 Yane
+- 211524004 Berliana
+- 211524005 Cintia
+- 211524029 Yane
 
 ## Prerequisites
 Java Runtime Environment (JRE) harus terinstall di komputer pengguna.
