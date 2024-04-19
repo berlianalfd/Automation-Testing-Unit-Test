@@ -47,7 +47,7 @@ Java Runtime Environment (JRE) harus terinstall di komputer pengguna.
 
 ## Notes
 
-1. Program ini membatasi rentang angka antara -32,768 dan 32,767.
+1. Program ini membatasi rentang angka antara -32768 dan 32767.
 2. Pembagian dengan nol tidak diperbolehkan.
 3. Hanya input angka yg dapat dioperasikan. Ini berarti karakter dan huruf tidak diperbolehkan.
 4. Pada program kalkulator ini hanya mendukung operasi aritmatika dasar seperti, penjumlahan, pengurangan, perkalian dan pembagian.
