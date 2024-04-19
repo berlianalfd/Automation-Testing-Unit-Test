@@ -47,8 +47,10 @@ public class Main {
             } catch (NumberFormatException ex) {
                 System.out.println(ex.getMessage());
             }
+        System.exit(0);
         } catch (IllegalArgumentException e) {
             System.out.println(e.getMessage());
         }
+        
     }
 }
