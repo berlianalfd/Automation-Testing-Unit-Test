@@ -30,7 +30,7 @@ Java Runtime Environment (JRE) harus terinstall di komputer pengguna.
 
 Berikut merupakan contoh tampilan dari program
 
-<img width="700" alt="contoh tampilan aplikasi" src="https://github.com/berlianalfd/JavaCalcApp/assets/143075674/a78961a6-973f-4805-aad1-83c67aad6177">
+<img width="750" alt="contoh tampilan aplikasi" src="https://github.com/berlianalfd/JavaCalcApp/assets/143075674/a78961a6-973f-4805-aad1-83c67aad6177">
 
 
 ## Testing Tools
