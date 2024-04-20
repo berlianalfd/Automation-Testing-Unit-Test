@@ -32,6 +32,10 @@ Berikut merupakan contoh tampilan dari program
 ![image](https://github.com/berlianalfd/JavaCalcApp/assets/143075674/e16fe704-ccb8-4f4d-b917-b1e62f3072c6")
 <img width="700" alt="contoh tampilan aplikasi" src="https://github.com/berlianalfd/JavaCalcApp/assets/143075674/e16fe704-ccb8-4f4d-b917-b1e62f3072c6">
 
+<img width="900" alt="contoh tampilan aplikasi" src="https://github.com/berlianalfd/JavaCalcApp/assets/143075674/a78961a6-973f-4805-aad1-83c67aad6177">
+
+<img width="800" alt="contoh tampilan aplikasi" src="https://github.com/berlianalfd/JavaCalcApp/assets/143075674/a78961a6-973f-4805-aad1-83c67aad6177">
+
 
 ## Testing Tools
 
