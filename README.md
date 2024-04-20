@@ -156,7 +156,7 @@ mvn surefire-report:report
 ```
 
 Sehingga hasil dari generate report tersebut akan membuat folder site didalam folder target
-<img width="400" alt="foldersite" src="https://github.com/berlianalfd/JavaCalcApp/assets/143075674/d4f66f9f-ad29-4cfa-a931-9f11da5d404f">
+<img width="300" alt="foldersite" src="https://github.com/berlianalfd/JavaCalcApp/assets/143075674/d4f66f9f-ad29-4cfa-a931-9f11da5d404f">
 
 Untuk melihat hasilnya buka file surefire-report.html pada browser
 
