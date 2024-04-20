@@ -31,6 +31,7 @@ Java Runtime Environment (JRE) harus terinstall di komputer pengguna.
 3. Masukkan operator (+, -, *, /) ketika diminta.
 4. Masukkan angka kedua ketika diminta.
 5. Hasil dari operasi aritmatika akan ditampilkan.
+
 ![image](https://github.com/berlianalfd/JavaCalcApp/assets/143075674/e16fe704-ccb8-4f4d-b917-b1e62f3072c6")
 
 
