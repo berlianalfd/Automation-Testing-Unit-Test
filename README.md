@@ -3,11 +3,9 @@
 menggunakan maven untuk melakukan operasi aritmatika dasar seperti penjumlahan, pengurangan, perkalian, dan pembagian.
 
 
-
 ## Description
 
 Program ini dibuat untuk memenuhi kebutuhan pengguna dalam melakukan operasi aritmatika sederhana. Pengguna dapat memasukkan dua angka dan sebuah operator (+, -, *, /) untuk mendapatkan hasilnya. Program ini dirancang untuk melakukan pengujian white box dengan menggunakan build tools Maven.
-
 
 
 ## Creator
@@ -17,11 +15,9 @@ Program ini dibuat untuk memenuhi kebutuhan pengguna dalam melakukan operasi ari
 - 211524029 Yane
 
 
-
 ## Prerequisites
 
 Java Runtime Environment (JRE) harus terinstall di komputer pengguna.
-
 
 
 ## How to Use
@@ -32,8 +28,9 @@ Java Runtime Environment (JRE) harus terinstall di komputer pengguna.
 4. Masukkan angka kedua ketika diminta.
 5. Hasil dari operasi aritmatika akan ditampilkan.
 
+Berikut merupakan contoh tampilan dari program
 ![image](https://github.com/berlianalfd/JavaCalcApp/assets/143075674/e16fe704-ccb8-4f4d-b917-b1e62f3072c6")
-
+<img width="700" alt="contoh tampilan aplikasi" src="https://github.com/berlianalfd/JavaCalcApp/assets/143075674/e16fe704-ccb8-4f4d-b917-b1e62f3072c6">
 
 
 ## Testing Tools
@@ -46,7 +43,6 @@ Java Runtime Environment (JRE) harus terinstall di komputer pengguna.
 - Bahasa pemrograman : Java
 
 
-
 ## Notes
 
 1. Program ini membatasi rentang angka antara -32768 dan 32767.
@@ -56,7 +52,6 @@ Java Runtime Environment (JRE) harus terinstall di komputer pengguna.
 5. Program hanya dapat menerima input dua angka. Ini berarti operasi yang memerlukan lebih dari dua operand, seperti perkalian matrik atau kalkulasi persentase, tidak dapat     dilakukan.
 6. Program hanya dapat menerima input bilangan bulat. Ini berarti angka desimal (float) tidak dapat diproses.
 7. Hasil perhitungan akan selalu berupa bilangan bulat.
-
 
 
 ## Running the program
@@ -133,10 +128,6 @@ Berikut merupakan perintah yang dapat di gunakan untuk melakukan test program me
      ```sh
      mvn -Dtest=MainTest#testAngkaPertamaLebihDariRange test
      ```
-
-     
-3. Untuk menguji semua metohod pada file validation.java, klik tombol "running" disebelah kiri yang berbentuk segitiga yang menunjuk ke kanan.
-
 
 ## Generate report by tools
 Untuk melakukan generate report dengan menggunakan tools maven, terlibih dahulu harus menambahkan <reporting> pada file pom.xml yang terdapat pada line (31 sampai 40)
