@@ -30,7 +30,7 @@ Java Runtime Environment (JRE) harus terinstall di komputer pengguna.
 
 Berikut merupakan contoh tampilan dari program
 
-<img width="800" alt="contoh tampilan aplikasi" src="https://github.com/berlianalfd/JavaCalcApp/assets/143075674/a78961a6-973f-4805-aad1-83c67aad6177">
+<img width="700" alt="contoh tampilan aplikasi" src="https://github.com/berlianalfd/JavaCalcApp/assets/143075674/a78961a6-973f-4805-aad1-83c67aad6177">
 
 
 ## Testing Tools
@@ -142,7 +142,7 @@ Berikut merupakan perintah yang dapat di gunakan untuk melakukan test program me
      ```
      
      Output
-     <img width="800" alt="contoh tampilan aplikasi" src="https://github.com/berlianalfd/JavaCalcApp/assets/143075674/f69bfb8c-0e51-4a31-bd30-05ca6d30f677">
+     <img width="700" alt="contoh tampilan aplikasi" src="https://github.com/berlianalfd/JavaCalcApp/assets/143075674/f69bfb8c-0e51-4a31-bd30-05ca6d30f677">
      
      
 ## Generate report by tools
@@ -156,6 +156,7 @@ mvn surefire-report:report
 ```
 
 Sehingga hasil dari generate report tersebut akan membuat folder site didalam folder target
+
 <img width="300" alt="foldersite" src="https://github.com/berlianalfd/JavaCalcApp/assets/143075674/d4f66f9f-ad29-4cfa-a931-9f11da5d404f">
 
 Untuk melihat hasilnya buka file surefire-report.html pada browser
