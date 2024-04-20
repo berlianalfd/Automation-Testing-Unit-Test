@@ -29,12 +29,8 @@ Java Runtime Environment (JRE) harus terinstall di komputer pengguna.
 5. Hasil dari operasi aritmatika akan ditampilkan.
 
 Berikut merupakan contoh tampilan dari program
-![image](https://github.com/berlianalfd/JavaCalcApp/assets/143075674/e16fe704-ccb8-4f4d-b917-b1e62f3072c6")
-<img width="700" alt="contoh tampilan aplikasi" src="https://github.com/berlianalfd/JavaCalcApp/assets/143075674/e16fe704-ccb8-4f4d-b917-b1e62f3072c6">
 
 <img width="900" alt="contoh tampilan aplikasi" src="https://github.com/berlianalfd/JavaCalcApp/assets/143075674/a78961a6-973f-4805-aad1-83c67aad6177">
-
-<img width="800" alt="contoh tampilan aplikasi" src="https://github.com/berlianalfd/JavaCalcApp/assets/143075674/a78961a6-973f-4805-aad1-83c67aad6177">
 
 
 ## Testing Tools
@@ -80,14 +76,20 @@ Berikut merupakan perintah yang dapat di gunakan untuk melakukan test program me
    ```sh
    mvn test
    ```
+
+   Output
    
-2. Perintah dibawah digunakan untuk menguji semua method test yang terdapat pada satu class test secara sekaligus.
+   
+3. Perintah dibawah digunakan untuk menguji semua method test yang terdapat pada satu class test secara sekaligus.
    
    - Perintah untuk menguji semua method test pada class ValidationTest
 
      ```sh
      mvn -Dtest=ValidationTest test
      ```
+
+     Output
+
      
    - Perintah untuk menguji semua method test pada class CalculatorOperationsTest
 
@@ -95,13 +97,19 @@ Berikut merupakan perintah yang dapat di gunakan untuk melakukan test program me
      mvn -Dtest=CalculatorOperationsTest test
      ```
 
+     Output
+
+     
    - Perintah untuk menguji semua method test pada class MainTest
 
      ```sh
      mvn -Dtest=MainTest test
      ```
 
-3. Perintah dibawah digunakan untuk menguji satu method test spesifik dari satu class test.
+     Output
+
+     
+4. Perintah dibawah digunakan untuk menguji satu method test spesifik dari satu class test.
    
    - Berikut merupakan perintah untuk menguji method test spesifik yang terdapat pada class ValidationTest
 
@@ -132,6 +140,10 @@ Berikut merupakan perintah yang dapat di gunakan untuk melakukan test program me
      ```sh
      mvn -Dtest=MainTest#testAngkaPertamaLebihDariRange test
      ```
-
+     
+     Output
+     <img width="900" alt="contoh tampilan aplikasi" src="https://github.com/berlianalfd/JavaCalcApp/assets/143075674/f69bfb8c-0e51-4a31-bd30-05ca6d30f677">
+     
+     
 ## Generate report by tools
 Untuk melakukan generate report dengan menggunakan tools maven, terlibih dahulu harus menambahkan <reporting> pada file pom.xml yang terdapat pada line (31 sampai 40)
