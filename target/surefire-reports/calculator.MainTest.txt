@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: calculator.MainTest
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.079 s <<< FAILURE! - in calculator.MainTest
+testAngkaBerupaNilaiDesimal(calculator.MainTest)  Time elapsed: 0.009 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<Error: [Tidak dapat menerima inputan berupa angka desimal (float).]> but was:<Error: [Nilai tidak boleh karakter atau huruf]>
+	at calculator.MainTest.testAngkaBerupaNilaiDesimal(MainTest.java:54)
+
