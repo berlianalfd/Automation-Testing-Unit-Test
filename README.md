@@ -114,7 +114,7 @@ Berikut merupakan perintah yang dapat di gunakan untuk melakukan test program me
    - Berikut merupakan perintah untuk menguji method test spesifik yang terdapat pada class ValidationTest
 
      ```sh
-     mvn -Dtest=ValidationTest#[Nama Method Test] test
+     mvn -Dtest=ValidationTest#<Nama Method Test> test
      ```
      
      Contohnya
@@ -123,7 +123,7 @@ Berikut merupakan perintah yang dapat di gunakan untuk melakukan test program me
    - Berikut merupakan perintah untuk menguji method test spesifik yang terdapat pada class CalculatorOperationsTest
 
      ```sh
-     mvn -Dtest=CalculatorOperationsTest#[Nama Method Test] test
+     mvn -Dtest=CalculatorOperationsTest#<Nama Method Test> test
      ```
   
      Contohnya
@@ -132,7 +132,7 @@ Berikut merupakan perintah yang dapat di gunakan untuk melakukan test program me
    - Berikut merupakan perintah untuk menguji method test spesifik yang terdapat pada class MainTest
 
      ```sh
-     mvn -Dtest=MainTest#[Nama Method Test] test
+     mvn -Dtest=MainTest#<Nama Method Test> test
      ```
   
      Contohnya
@@ -146,4 +146,17 @@ Berikut merupakan perintah yang dapat di gunakan untuk melakukan test program me
      
      
 ## Generate report by tools
-Untuk melakukan generate report dengan menggunakan tools maven, terlibih dahulu harus menambahkan <reporting> pada file pom.xml yang terdapat pada line (31 sampai 40)
+
+Untuk melakukan generate report dengan menggunakan tools maven, terlibih dahulu harus menambahkan <reporting> pada file pom.xml yang terdapat pada line (31 sampai 40). 
+
+Berikut merupakan perintah untuk generate report menggunakan maven
+
+```sh
+mvn surefire-report:report 
+```
+
+Sehingga hasil dari generate report tersebut akan membuat folder site didalam folder target
+<img width="400" alt="foldersite" src="https://github.com/berlianalfd/JavaCalcApp/assets/143075674/d4f66f9f-ad29-4cfa-a931-9f11da5d404f">
+
+Untuk melihat hasilnya buka file surefire-report.html pada browser
+
