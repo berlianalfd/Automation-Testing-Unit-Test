@@ -94,67 +94,46 @@ Berikut merupakan perintah yang dapat di gunakan untuk melakukan test program me
      mvn -Dtest=CalculatorOperationsTest test
      ```
 
+   - Perintah untuk menguji semua method test pada class MainTest
+
+     ```sh
+     mvn -Dtest=MainTest test
+     ```
+
 3. Perintah dibawah digunakan untuk menguji satu method test spesifik dari satu class test.
    
-   - Berikut merupakan rincian perintah untuk menguji method test spesifik yang terdapat pada class ValidationTest
+   - Berikut merupakan perintah untuk menguji method test spesifik yang terdapat pada class ValidationTest
+
+     ```sh
+     mvn -Dtest=ValidationTest#[Nama Method Test] test
+     ```
      
-     - Perintah untuk menguji method testValidasiInputNonNumerik
+     Contohnya
+     Berikut perintah untuk menguji method ....    
+       
+   - Berikut merupakan perintah untuk menguji method test spesifik yang terdapat pada class CalculatorOperationsTest
 
-       ```sh
-       mvn -Dtest=ValidationTest#testValidasiInputNonNumerik test
-       ```
-       
-     - Perintah untuk menguji method testValidasiInputOverOfRange
-       
-       ```sh
-       mvn -Dtest=ValidationTest#testValidasiInputOverOfRange test
-       ```
-       
-     - Perintah untuk menguji method testValidasiInputLessOfRange
-       
-       ```sh
-       mvn -Dtest=ValidationTest#testValidasiInputLessOfRang test
-       ```
-       
-     - Perintah untuk menguji method testValidasiDivisionByZero
-       
-       ```sh
-       mvn -Dtest=ValidationTest#testValidasiDivisionByZero test
-       ```
-       
-     - Perintah untuk menguji method testValidasiOperatorTidakValid
-       
-       ```sh
-       mvn -Dtest=ValidationTest#testValidasiOperatorTidakValid test
-       ```
-       
-       
-   -  Berikut merupakan rincian perintah untuk menguji method test spesifik yang terdapat pada class CalculatorOperationsTest
-      - Perintah untuk menguji method testAddition
-
-        ```sh
-        mvn -Dtest=CalculatorOperationsTest#testAddition test
-        ```
-        
-      - Perintah untuk menguji method testSubtract
+     ```sh
+     mvn -Dtest=CalculatorOperationsTest#[Nama Method Test] test
+     ```
   
-        ```sh
-        mvn -Dtest=CalculatorOperationsTest#testSubtract test
-        ```
-        
-      - Perintah untuk menguji method testMultiply
-          
-        ```sh
-        mvn -Dtest=CalculatorOperationsTest#testMultiply test
-        ```
-        
-      - Perintah untuk menguji method testDivide
-          
-        ```sh
-        mvn -Dtest=CalculatorOperationsTest#testDivide test
-        ```
+     Contohnya
+     Berikut perintah untuk menguji method ....
 
-3. Untuk menguji semua metohod pada file validation.java, klik tombol "running" disebelah kiri yang berbentuk segitiga yang       menunjuk ke kanan.
+   - Berikut merupakan perintah untuk menguji method test spesifik yang terdapat pada class MainTest
+
+     ```sh
+     mvn -Dtest=MainTest#[Nama Method Test] test
+     ```
+  
+     Contohnya
+     Berikut perintah untuk menguji method testAngkaPertamaLebihDariRange yang merupakan test untuk untuk angka pertama yang nilainya lebih dari range
+     ```sh
+     mvn -Dtest=MainTest#testAngkaPertamaLebihDariRange test
+     ```
+
+     
+3. Untuk menguji semua metohod pada file validation.java, klik tombol "running" disebelah kiri yang berbentuk segitiga yang menunjuk ke kanan.
 
 
 ## Generate report by tools
