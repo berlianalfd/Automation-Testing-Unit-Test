@@ -142,6 +142,7 @@ Berikut merupakan perintah yang dapat di gunakan untuk melakukan test program me
      ```
      
      Output
+     
      <img width="600" alt="contoh tampilan aplikasi" src="https://github.com/berlianalfd/JavaCalcApp/assets/143075674/f69bfb8c-0e51-4a31-bd30-05ca6d30f677">
      
      
@@ -171,17 +172,17 @@ Untuk melakukan generate report dengan menggunakan tools maven, terlibih dahulu 
 
       gambar...
 
-      - File yang tidak memiliki kesalahan dari hasil test akan ditandai dengan icon ![icon_success_sml](https://github.com/berlianalfd/JavaCalcApp/assets/143075674/35de3318-03aa-4f47-b138-c1878a6fbde6)
+      - File yang tidak memiliki kesalahan dari hasil test akan ditandai dengan icon  ![icon_success_sml](https://github.com/berlianalfd/JavaCalcApp/assets/143075674/35de3318-03aa-4f47-b138-c1878a6fbde6)
         
-      - File yang memiliki kesalahan dari hasil test akan ditandai dengan icon ![icon_warning_sml](https://github.com/berlianalfd/JavaCalcApp/assets/143075674/0c638baa-b3d8-4631-935a-016860d10987)
+      - File yang memiliki kesalahan dari hasil test akan ditandai dengan icon  ![icon_warning_sml](https://github.com/berlianalfd/JavaCalcApp/assets/143075674/0c638baa-b3d8-4631-935a-016860d10987)
       
    3. Test Cases berisikan list dari selurh test yang dilakukan pada setiap file test
       
       gambar...
 
-      - Test dengan status pass akan ditandai dengan icon ![icon_success_sml](https://github.com/berlianalfd/JavaCalcApp/assets/143075674/35de3318-03aa-4f47-b138-c1878a6fbde6)
+      - Test dengan status pass akan ditandai dengan icon  ![icon_success_sml](https://github.com/berlianalfd/JavaCalcApp/assets/143075674/35de3318-03aa-4f47-b138-c1878a6fbde6)
       
-      - Test dengan status fail akan ditandai dengan icon ![icon_error_sml](https://github.com/berlianalfd/JavaCalcApp/assets/143075674/74827540-a631-4957-8688-bba7b94b37df)
+      - Test dengan status fail akan ditandai dengan icon  ![icon_error_sml](https://github.com/berlianalfd/JavaCalcApp/assets/143075674/74827540-a631-4957-8688-bba7b94b37df)
       
    4. Test dengan status fail akan ditunjukkan dengan menampilkan kesalahan apa yang terjadi yaitu menampilkan expected nya bagaimana apa dan actual nya bagaimana.
   
