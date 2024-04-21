@@ -108,7 +108,11 @@ Berikut merupakan perintah yang dapat di gunakan untuk melakukan test program me
      
      Contohnya
      
-     Berikut perintah untuk menguji method ....    
+     Berikut merupakan perintah untuk menguji method estValidasiOperand1LessOfRange yang merupakan test untuk menguji angka kurang dari range
+
+     ```sh
+     mvn -Dtest=ValidationTest#testValidasiOperand1LessOfRange test
+     ```
        
    - Berikut merupakan perintah untuk menguji method test spesifik yang terdapat pada class CalculatorOperationsTest
 
@@ -118,7 +122,11 @@ Berikut merupakan perintah yang dapat di gunakan untuk melakukan test program me
   
      Contohnya
      
-     Berikut perintah untuk menguji method ....
+     Berikut perintah untuk menguji method testAddition yang merupakan test untuk menguji proses penjumlahan
+
+     ```sh
+     mvn -Dtest=CalculatorOperationsTest#testAddition test
+     ```
 
    - Berikut merupakan perintah untuk menguji method test spesifik yang terdapat pada class MainTest
 
@@ -128,7 +136,7 @@ Berikut merupakan perintah yang dapat di gunakan untuk melakukan test program me
   
      Contohnya
      
-     Berikut perintah untuk menguji method testAngkaPertamaLebihDariRange yang merupakan test untuk untuk angka pertama yang nilainya lebih dari range
+     Berikut merupakan perintah untuk menguji method testAngkaPertamaLebihDariRange yang merupakan test untuk menguji angka pertama yang nilainya lebih dari range
      
      ```sh
      mvn -Dtest=MainTest#testAngkaPertamaLebihDariRange test
@@ -151,28 +159,29 @@ Untuk melakukan generate report dengan menggunakan tools maven, terlibih dahulu 
 
 3. Untuk melihat hasilnya buka file surefire-report.html pada browser
 
+    <img width="700" alt="generateReport" src="https://github.com/berlianalfd/JavaCalcApp/assets/143075674/5f2a159e-a11b-459f-bb97-323c1fc51646">
 
    **Penjelasan**
    - **Summary** berisikan jumlah dari seluruh test, error, failure, skipped, success rate dan time
-
-     gambar...
-   - **Package List** berisikan list dari seluruh file test. Dimana kelompok kami memiliki 3 file test yaitu CalculatorOperationsTest, MainTest dan ValidationTest. Dan pada masing - masing file test terdapat jumlah dari seluruh test, error, failure, skipped, success rate dan time
-
-      gambar...
+     <img width="700" alt="summary" src="https://github.com/berlianalfd/JavaCalcApp/assets/143075674/af9a7449-fc37-429c-a742-00a4a3bbd8a0">
+     
+   - **Package List** berisikan list dari package serta list dari file test yang terdapat pada package tersebut. Dimana kelompok kami memiliki 3 file test pada package calculator yaitu CalculatorOperationsTest, MainTest dan ValidationTest. Dan pada masing - masing file test terdapat jumlah dari seluruh test, error, failure, skipped, success rate dan time
+  
+     <img width="700" alt="packagelist" src="https://github.com/berlianalfd/JavaCalcApp/assets/143075674/69358460-9230-433f-a7ef-717a48e03f3f">
 
       - File yang tidak memiliki kesalahan dari hasil test akan ditandai dengan icon  ![icon_success_sml](https://github.com/berlianalfd/JavaCalcApp/assets/143075674/35de3318-03aa-4f47-b138-c1878a6fbde6)
         
       - File yang memiliki kesalahan dari hasil test akan ditandai dengan icon  ![icon_warning_sml](https://github.com/berlianalfd/JavaCalcApp/assets/143075674/0c638baa-b3d8-4631-935a-016860d10987)
       
    - **Test Cases** berisikan list dari selurh test yang dilakukan pada setiap file test
-      
-      gambar...
+     
+     <img width="700" alt="testcases" src="https://github.com/berlianalfd/JavaCalcApp/assets/143075674/698fc74f-57aa-46a7-a497-85e318c19306">
 
-      - Test dengan status **pass** akan ditandai dengan icon  ![icon_success_sml](https://github.com/berlianalfd/JavaCalcApp/assets/143075674/35de3318-03aa-4f47-b138-c1878a6fbde6)
+      - Test dengan status **PASS** akan ditandai dengan icon  ![icon_success_sml](https://github.com/berlianalfd/JavaCalcApp/assets/143075674/35de3318-03aa-4f47-b138-c1878a6fbde6)
       
-      - Test dengan status **fail** akan ditandai dengan icon  ![icon_error_sml](https://github.com/berlianalfd/JavaCalcApp/assets/143075674/74827540-a631-4957-8688-bba7b94b37df)
+      - Test dengan status **FAIL** akan ditandai dengan icon  ![icon_error_sml](https://github.com/berlianalfd/JavaCalcApp/assets/143075674/74827540-a631-4957-8688-bba7b94b37df)
       
-   - Test dengan status **fail** akan ditunjukkan dengan menampilkan kesalahan apa yang terjadi yaitu menampilkan expected nya bagaimana apa dan actual nya bagaimana.
+   - Test dengan status **FAIL** akan ditunjukkan dengan menampilkan kesalahan apa yang terjadi yaitu menampilkan expected nya bagaimana apa dan actual nya bagaimana.
   
      <img width="700" alt="tcfail" src="https://github.com/berlianalfd/JavaCalcApp/assets/143075674/86eb4334-5fab-440d-a8c9-0a80473c0cc1">
       
