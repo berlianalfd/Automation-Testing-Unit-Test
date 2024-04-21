@@ -30,7 +30,7 @@ Java Runtime Environment (JRE) harus terinstall di komputer pengguna.
 
 Berikut merupakan contoh tampilan dari program
 
-<img width="750" alt="contoh tampilan aplikasi" src="https://github.com/berlianalfd/JavaCalcApp/assets/143075674/a78961a6-973f-4805-aad1-83c67aad6177">
+<img width="700" alt="contoh tampilan aplikasi" src="https://github.com/berlianalfd/JavaCalcApp/assets/143075674/a78961a6-973f-4805-aad1-83c67aad6177">
 
 
 ## Testing Tools
@@ -142,22 +142,54 @@ Berikut merupakan perintah yang dapat di gunakan untuk melakukan test program me
      ```
      
      Output
-     <img width="700" alt="contoh tampilan aplikasi" src="https://github.com/berlianalfd/JavaCalcApp/assets/143075674/f69bfb8c-0e51-4a31-bd30-05ca6d30f677">
+     <img width="600" alt="contoh tampilan aplikasi" src="https://github.com/berlianalfd/JavaCalcApp/assets/143075674/f69bfb8c-0e51-4a31-bd30-05ca6d30f677">
      
      
 ## Generate report by tools
 
 Untuk melakukan generate report dengan menggunakan tools maven, terlibih dahulu harus menambahkan <reporting> pada file pom.xml yang terdapat pada line (31 sampai 40). 
 
-Berikut merupakan perintah untuk generate report menggunakan maven
+1. Berikut merupakan perintah untuk generate report menggunakan maven
 
-```sh
-mvn surefire-report:report 
-```
+   ```sh
+   mvn surefire-report:report 
+   ```
 
-Sehingga hasil dari generate report tersebut akan membuat folder site didalam folder target
+2. Sehingga hasil dari generate report tersebut akan membuat folder site didalam folder target
 
-<img width="300" alt="foldersite" src="https://github.com/berlianalfd/JavaCalcApp/assets/143075674/d4f66f9f-ad29-4cfa-a931-9f11da5d404f">
+   <img width="300" alt="foldersite" src="https://github.com/berlianalfd/JavaCalcApp/assets/143075674/d4f66f9f-ad29-4cfa-a931-9f11da5d404f">
 
-Untuk melihat hasilnya buka file surefire-report.html pada browser
+3. Untuk melihat hasilnya buka file surefire-report.html pada browser
 
+
+   #### Penjelasan
+   1. Summary berisikan jumlah dari seluruh test, error, failure, skipped, success rate dan time
+
+      gambar...
+      
+   2. Package List berisikan list dari seluruh file test. Dimana kelompok kami memiliki 3 file test yaitu CalculatorOperationsTest, MainTest dan ValidationTest. Dan pada masing - masing file test terdapat jumlah dari seluruh test, error, failure, skipped, success rate dan time
+
+      gambar...
+
+      - File yang tidak memiliki kesalahan dari hasil test akan ditandai dengan icon ![icon_success_sml](https://github.com/berlianalfd/JavaCalcApp/assets/143075674/35de3318-03aa-4f47-b138-c1878a6fbde6)
+        
+      - File yang memiliki kesalahan dari hasil test akan ditandai dengan icon ![icon_warning_sml](https://github.com/berlianalfd/JavaCalcApp/assets/143075674/0c638baa-b3d8-4631-935a-016860d10987)
+      
+   3. Test Cases berisikan list dari selurh test yang dilakukan pada setiap file test
+      
+      gambar...
+
+      - Test dengan status pass akan ditandai dengan icon ![icon_success_sml](https://github.com/berlianalfd/JavaCalcApp/assets/143075674/35de3318-03aa-4f47-b138-c1878a6fbde6)
+      
+      - Test dengan status fail akan ditandai dengan icon ![icon_error_sml](https://github.com/berlianalfd/JavaCalcApp/assets/143075674/74827540-a631-4957-8688-bba7b94b37df)
+      
+   4. Test dengan status fail akan ditunjukkan dengan menampilkan kesalahan apa yang terjadi yaitu menampilkan expected nya bagaimana apa dan actual nya bagaimana.
+  
+      <img width="600" alt="tcfail" src="https://github.com/berlianalfd/JavaCalcApp/assets/143075674/86eb4334-5fab-440d-a8c9-0a80473c0cc1">
+      
+      Untuk mendapatkan infomasi lebih detail mengenai kesalahan yang sedang terjadi, dapat dilihat pada bagian Failure Details
+
+      <img width="600" alt="detail error" src="https://github.com/berlianalfd/JavaCalcApp/assets/143075674/b642f2cf-7513-41c9-ab25-67b076eb1b57">
+
+      
+       
