@@ -9,31 +9,27 @@ import static org.junit.Assert.*;
 
 public class CalculatorOperationsTest 
 {
-    // Test untuk penjumlahan
+   // Test untuk penjumlahan
     @Test
     public void testAddition() {
-        int result = CalculatorOperations.calculator(5, 3, '+');
-        assertEquals(8, result);
+        assertEquals(8, CalculatorOperations.calculator(5, 3, '+'));
     }  
     
     // Test untuk pengurangan
     @Test
     public void testSubtract() {
-        int result = CalculatorOperations.calculator(10, 4, '-');
-        assertEquals(6, result);
+        assertEquals(6, CalculatorOperations.calculator(10, 4, '-'));
     }
     
     // Test untuk perkalian
     @Test
     public void testMultiply() {
-        int result = CalculatorOperations.calculator(2, 6, '*');
-        assertEquals(12, result);
+        assertEquals(12, CalculatorOperations.calculator(2, 6, '*'));
     }
    
     // Test untuk pembagian
     @Test
     public void testDivide() {
-        int result = CalculatorOperations.calculator(20, 5, '/');
-        assertEquals(4, result);
+        assertEquals(4, CalculatorOperations.calculator(20, 5, '/'));
     }
 }
