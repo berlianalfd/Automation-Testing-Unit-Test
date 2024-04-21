@@ -131,7 +131,7 @@ Berikut merupakan perintah yang dapat di gunakan untuk melakukan test program me
   
      Contohnya
      
-     Berikut merupakan perintah untuk menguji method testAngkaPertamaLebihDariRange yang merupakan test untuk menguji angka pertama yang nilainya lebih dari range
+     Berikut merupakan perintah untuk menguji angka pertama yang nilainya lebih dari range, yaitu **method testAngkaPertamaLebihDariRange**
      
      ```sh
      mvn -Dtest=MainTest#testAngkaPertamaLebihDariRange test
@@ -140,7 +140,7 @@ Berikut merupakan perintah yang dapat di gunakan untuk melakukan test program me
      
 ## Generate report by tools
 
-Untuk melakukan generate report dengan menggunakan tools maven, terlibih dahulu harus menambahkan <reporting> pada file pom.xml yang terdapat pada line (31 sampai 40). 
+Generate report dilakukan dengan menggunakan tools maven. Sebelumnya, harus menambahkan <reporting> pada file pom.xml yang terdapat pada line (31 sampai 40). 
 
 1. Berikut merupakan perintah untuk generate report menggunakan maven
 
@@ -160,7 +160,7 @@ Untuk melakukan generate report dengan menggunakan tools maven, terlibih dahulu 
    - **Summary** berisikan jumlah dari seluruh test, error, failure, skipped, success rate dan time
      <img width="700" alt="summary" src="https://github.com/berlianalfd/JavaCalcApp/assets/143075674/af9a7449-fc37-429c-a742-00a4a3bbd8a0">
      
-   - **Package List** berisikan list dari package serta list dari file test yang terdapat pada package tersebut. Dimana kelompok kami memiliki 3 file test pada package calculator yaitu CalculatorOperationsTest, MainTest dan ValidationTest. Dan pada masing - masing file test terdapat jumlah dari seluruh test, error, failure, skipped, success rate dan time
+   - **Package List** berisikan list dari package serta list dari file test yang terdapat pada package tersebut. Kelompok kami membuat 3 file test pada package calculator yaitu CalculatorOperationsTest, MainTest dan ValidationTest. Pada masing - masing file test terdapat jumlah dari seluruh test, error, failure, skipped, success rate dan time
   
      <img width="700" alt="packagelist" src="https://github.com/berlianalfd/JavaCalcApp/assets/143075674/69358460-9230-433f-a7ef-717a48e03f3f">
 
