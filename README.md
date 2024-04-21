@@ -114,7 +114,7 @@ Berikut merupakan perintah yang dapat di gunakan untuk melakukan test program me
    - Berikut merupakan perintah untuk menguji method test spesifik yang terdapat pada class ValidationTest
 
      ```sh
-     mvn -Dtest=ValidationTest#<Nama Method Test> test
+     mvn -Dtest=ValidationTest#<Nama_Method_Test> test
      ```
      
      Contohnya
@@ -123,7 +123,7 @@ Berikut merupakan perintah yang dapat di gunakan untuk melakukan test program me
    - Berikut merupakan perintah untuk menguji method test spesifik yang terdapat pada class CalculatorOperationsTest
 
      ```sh
-     mvn -Dtest=CalculatorOperationsTest#<Nama Method Test> test
+     mvn -Dtest=CalculatorOperationsTest#<Nama_Method_Test> test
      ```
   
      Contohnya
@@ -132,7 +132,7 @@ Berikut merupakan perintah yang dapat di gunakan untuk melakukan test program me
    - Berikut merupakan perintah untuk menguji method test spesifik yang terdapat pada class MainTest
 
      ```sh
-     mvn -Dtest=MainTest#<Nama Method Test> test
+     mvn -Dtest=MainTest#<Nama_Method_Test> test
      ```
   
      Contohnya
@@ -164,11 +164,10 @@ Untuk melakukan generate report dengan menggunakan tools maven, terlibih dahulu 
 
 
    **Penjelasan**
-   1. **Summary** berisikan jumlah dari seluruh test, error, failure, skipped, success rate dan time
+   - **Summary** berisikan jumlah dari seluruh test, error, failure, skipped, success rate dan time
 
-      gambar...
-      
-   2. **Package List** berisikan list dari seluruh file test. Dimana kelompok kami memiliki 3 file test yaitu CalculatorOperationsTest, MainTest dan ValidationTest. Dan pada masing - masing file test terdapat jumlah dari seluruh test, error, failure, skipped, success rate dan time
+     gambar...
+   - **Package List** berisikan list dari seluruh file test. Dimana kelompok kami memiliki 3 file test yaitu CalculatorOperationsTest, MainTest dan ValidationTest. Dan pada masing - masing file test terdapat jumlah dari seluruh test, error, failure, skipped, success rate dan time
 
       gambar...
 
@@ -176,7 +175,7 @@ Untuk melakukan generate report dengan menggunakan tools maven, terlibih dahulu 
         
       - File yang memiliki kesalahan dari hasil test akan ditandai dengan icon  ![icon_warning_sml](https://github.com/berlianalfd/JavaCalcApp/assets/143075674/0c638baa-b3d8-4631-935a-016860d10987)
       
-   3. **Test Cases** berisikan list dari selurh test yang dilakukan pada setiap file test
+   - **Test Cases** berisikan list dari selurh test yang dilakukan pada setiap file test
       
       gambar...
 
@@ -184,13 +183,13 @@ Untuk melakukan generate report dengan menggunakan tools maven, terlibih dahulu 
       
       - Test dengan status **fail** akan ditandai dengan icon  ![icon_error_sml](https://github.com/berlianalfd/JavaCalcApp/assets/143075674/74827540-a631-4957-8688-bba7b94b37df)
       
-   4. Test dengan status **fail** akan ditunjukkan dengan menampilkan kesalahan apa yang terjadi yaitu menampilkan expected nya bagaimana apa dan actual nya bagaimana.
+   - Test dengan status **fail** akan ditunjukkan dengan menampilkan kesalahan apa yang terjadi yaitu menampilkan expected nya bagaimana apa dan actual nya bagaimana.
   
-      <img width="600" alt="tcfail" src="https://github.com/berlianalfd/JavaCalcApp/assets/143075674/86eb4334-5fab-440d-a8c9-0a80473c0cc1">
+     <img width="600" alt="tcfail" src="https://github.com/berlianalfd/JavaCalcApp/assets/143075674/86eb4334-5fab-440d-a8c9-0a80473c0cc1">
       
-      Untuk mendapatkan infomasi lebih detail mengenai kesalahan yang sedang terjadi, dapat dilihat pada bagian **Failure Details**
+     Untuk mendapatkan infomasi lebih detail mengenai kesalahan yang sedang terjadi, dapat dilihat pada bagian **Failure Details**
 
-      <img width="600" alt="detail error" src="https://github.com/berlianalfd/JavaCalcApp/assets/143075674/b642f2cf-7513-41c9-ab25-67b076eb1b57">
+     <img width="600" alt="detail error" src="https://github.com/berlianalfd/JavaCalcApp/assets/143075674/b642f2cf-7513-41c9-ab25-67b076eb1b57">
 
       
        
