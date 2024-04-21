@@ -75,19 +75,19 @@ Berikut merupakan perintah yang dapat di gunakan untuk melakukan test program me
    
 2. Perintah dibawah digunakan untuk menguji semua method test yang terdapat pada satu class test secara sekaligus.
    
-   - Perintah untuk menguji semua method test pada class ValidationTest
+   - Perintah untuk menguji semua method test pada **class ValidationTest**
 
      ```sh
      mvn -Dtest=ValidationTest test
      ```
      
-   - Perintah untuk menguji semua method test pada class CalculatorOperationsTest
+   - Perintah untuk menguji semua method test pada **class CalculatorOperationsTest**
 
      ```sh
      mvn -Dtest=CalculatorOperationsTest test
      ```
      
-   - Perintah untuk menguji semua method test pada class MainTest
+   - Perintah untuk menguji semua method test pada **class MainTest**
 
      ```sh
      mvn -Dtest=MainTest test
@@ -104,8 +104,7 @@ Berikut merupakan perintah yang dapat di gunakan untuk melakukan test program me
      
      Contohnya
      
-     Berikut merupakan perintah untuk menguji method testValidasiOperand1LessOfRange yang merupakan test untuk menguji angka kurang dari range
-
+     Berikut merupakan perintah untuk menguji angka kurang dari range, yaitu **method testValidasiOperand1LessOfRange** 
      ```sh
      mvn -Dtest=ValidationTest#testValidasiOperand1LessOfRange test
      ```
@@ -118,7 +117,7 @@ Berikut merupakan perintah yang dapat di gunakan untuk melakukan test program me
   
      Contohnya
      
-     Berikut perintah untuk menguji method testAddition yang merupakan test untuk menguji proses penjumlahan
+     Berikut perintah untuk menguji proses penjumlahan, yaitu **method testAddition**
 
      ```sh
      mvn -Dtest=CalculatorOperationsTest#testAddition test
