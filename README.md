@@ -108,7 +108,7 @@ Berikut merupakan perintah yang dapat di gunakan untuk melakukan test program me
      
      Contohnya
      
-     Berikut merupakan perintah untuk menguji method estValidasiOperand1LessOfRange yang merupakan test untuk menguji angka kurang dari range
+     Berikut merupakan perintah untuk menguji method testValidasiOperand1LessOfRange yang merupakan test untuk menguji angka kurang dari range
 
      ```sh
      mvn -Dtest=ValidationTest#testValidasiOperand1LessOfRange test
