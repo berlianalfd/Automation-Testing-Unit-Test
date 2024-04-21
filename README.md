@@ -75,10 +75,7 @@ Berikut merupakan perintah yang dapat di gunakan untuk melakukan test program me
    
    ```sh
    mvn test
-   ```
-
-   Berikut merupakan output dari hasil pengujian semua class secara sekaligus
-   
+   ``` 
    
 2. Perintah dibawah digunakan untuk menguji semua method test yang terdapat pada satu class test secara sekaligus.
    
@@ -87,28 +84,18 @@ Berikut merupakan perintah yang dapat di gunakan untuk melakukan test program me
      ```sh
      mvn -Dtest=ValidationTest test
      ```
-
-     Berikut merupakan output dari hasil pengujian semua method yang terdapat pada class ValidationTest
-
      
    - Perintah untuk menguji semua method test pada class CalculatorOperationsTest
 
      ```sh
      mvn -Dtest=CalculatorOperationsTest test
      ```
-
-     Berikut merupakan output dari hasil pengujian semua method yang terdapat pada class CalculatorOperationsTest
-
      
    - Perintah untuk menguji semua method test pada class MainTest
 
      ```sh
      mvn -Dtest=MainTest test
      ```
-
-     Berikut merupakan output dari hasil pengujian semua method yang terdapat pada class MainTest
-
-     <img width="700" alt="contoh tampilan aplikasi" src="https://github.com/berlianalfd/JavaCalcApp/assets/143075674/5913fc3e-b383-44b1-be53-a2ad4751aa99">
 
      
 3. Perintah dibawah digunakan untuk menguji satu method test spesifik dari satu class test.
@@ -146,10 +133,6 @@ Berikut merupakan perintah yang dapat di gunakan untuk melakukan test program me
      ```sh
      mvn -Dtest=MainTest#testAngkaPertamaLebihDariRange test
      ```
-     
-     Berikut merupakan output dari hasil pengujian method testAngkaPertamaLebihDariRange yang terdapat pada class MainTest
-     
-     <img width="700" alt="contoh tampilan aplikasi" src="https://github.com/berlianalfd/JavaCalcApp/assets/143075674/f69bfb8c-0e51-4a31-bd30-05ca6d30f677">
      
      
 ## Generate report by tools
