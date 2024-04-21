@@ -108,7 +108,11 @@ Berikut merupakan perintah yang dapat di gunakan untuk melakukan test program me
      
      Contohnya
      
-     Berikut perintah untuk menguji method ....    
+     Berikut merupakan perintah untuk menguji method estValidasiOperand1LessOfRange yang merupakan test untuk menguji angka kurang dari range
+
+     ```sh
+     mvn -Dtest=ValidationTest#estValidasiOperand1LessOfRange test
+     ```
        
    - Berikut merupakan perintah untuk menguji method test spesifik yang terdapat pada class CalculatorOperationsTest
 
@@ -118,7 +122,11 @@ Berikut merupakan perintah yang dapat di gunakan untuk melakukan test program me
   
      Contohnya
      
-     Berikut perintah untuk menguji method ....
+     Berikut perintah untuk menguji method testAddition yang merupakan test untuk menguji proses penjumlahan
+
+     ```sh
+     mvn -Dtest=CalculatorOperationsTest#testAddition test
+     ```
 
    - Berikut merupakan perintah untuk menguji method test spesifik yang terdapat pada class MainTest
 
@@ -128,7 +136,7 @@ Berikut merupakan perintah yang dapat di gunakan untuk melakukan test program me
   
      Contohnya
      
-     Berikut perintah untuk menguji method testAngkaPertamaLebihDariRange yang merupakan test untuk untuk angka pertama yang nilainya lebih dari range
+     Berikut merupakan perintah untuk menguji method testAngkaPertamaLebihDariRange yang merupakan test untuk menguji angka pertama yang nilainya lebih dari range
      
      ```sh
      mvn -Dtest=MainTest#testAngkaPertamaLebihDariRange test
