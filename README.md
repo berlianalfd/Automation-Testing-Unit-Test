@@ -1,11 +1,7 @@
 # Program Kalkulator Kelompok A8
-
-yang dapat melakukan operasi aritmatika dasar seperti penjumlahan, pengurangan, perkalian, dan pembagian.
-
-
 ## Description
 
-Program ini dibuat untuk memenuhi kebutuhan pengguna dalam melakukan operasi aritmatika sederhana. Pengguna dapat memasukkan dua angka dan sebuah operator (+, -, *, /) untuk mendapatkan hasilnya. Program ini dirancang untuk melakukan pengujian white box dengan menggunakan build tools Maven.
+Program ini dibuat untuk memenuhi kebutuhan pengguna dalam melakukan operasi aritmatika sederhana yang dapat melakukan operasi aritmatika dasar seperti penjumlahan, pengurangan, perkalian, dan pembagian. Pengguna dapat memasukkan dua angka dan sebuah operator (+, -, *, /) untuk mendapatkan hasilnya. Program ini dirancang untuk melakukan pengujian white box dengan menggunakan build tools Maven.
 
 
 ## Creator
@@ -61,7 +57,7 @@ Berikut merupakan contoh tampilan dari program
    mvn package exec:java
    ```
    
-2. Jika file JAR sudah terbuat untuk running program jalankan perintah berikut pada terminal
+2. Jika file JAR sudah terbuat untuk running program jalankan perintah berikut pada terminal.
    
    ```sh
    mvn exec:java
@@ -70,7 +66,7 @@ Berikut merupakan contoh tampilan dari program
 
 ## Test the program
 
-Berikut merupakan perintah yang dapat di gunakan untuk melakukan test program menggunakan maven pada terminal
+Berikut merupakan perintah yang dapat di gunakan untuk melakukan test program menggunakan maven pada terminal.
 1. Perintah dibawah digunakan untuk menguji semua class sekaligus
    
    ```sh
