@@ -1,6 +1,6 @@
 # Program Kalkulator Kelompok A8
 
-menggunakan maven untuk melakukan operasi aritmatika dasar seperti penjumlahan, pengurangan, perkalian, dan pembagian.
+yang dapat melakukan operasi aritmatika dasar seperti penjumlahan, pengurangan, perkalian, dan pembagian.
 
 
 ## Description
@@ -39,7 +39,7 @@ Berikut merupakan contoh tampilan dari program
 - Alat build otomatis : Apache Maven
 - Tools buat runing : Terminal
 - Sistem operasi : Window
-- Unit testing : Java (Junit)
+- Framework Unit testing : JUnit 
 - Bahasa pemrograman : Java
 
 
