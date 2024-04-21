@@ -158,7 +158,7 @@ Untuk melakukan generate report dengan menggunakan tools maven, terlibih dahulu 
 
 2. Sehingga hasil dari generate report tersebut akan membuat folder site didalam folder target
 
-   <img width="300" alt="foldersite" src="https://github.com/berlianalfd/JavaCalcApp/assets/143075674/d4f66f9f-ad29-4cfa-a931-9f11da5d404f">
+   <img width="200" alt="foldersite" src="https://github.com/berlianalfd/JavaCalcApp/assets/143075674/d4f66f9f-ad29-4cfa-a931-9f11da5d404f">
 
 3. Untuk melihat hasilnya buka file surefire-report.html pada browser
 
