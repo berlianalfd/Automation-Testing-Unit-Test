@@ -189,5 +189,7 @@ Untuk melakukan generate report dengan menggunakan tools maven, terlibih dahulu 
 
      <img width="700" alt="detail error" src="https://github.com/berlianalfd/JavaCalcApp/assets/143075674/b642f2cf-7513-41c9-ab25-67b076eb1b57">
 
-      
-       
+
+
+## Referensi      
+https://maven.apache.org/surefire/maven-surefire-report-plugin/usage.html       
