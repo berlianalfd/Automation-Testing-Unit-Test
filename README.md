@@ -77,10 +77,10 @@ Berikut merupakan perintah yang dapat di gunakan untuk melakukan test program me
    mvn test
    ```
 
-   Output
+   Berikut merupakan output dari hasil pengujian semua class secara sekaligus
    
    
-3. Perintah dibawah digunakan untuk menguji semua method test yang terdapat pada satu class test secara sekaligus.
+2. Perintah dibawah digunakan untuk menguji semua method test yang terdapat pada satu class test secara sekaligus.
    
    - Perintah untuk menguji semua method test pada class ValidationTest
 
@@ -88,7 +88,7 @@ Berikut merupakan perintah yang dapat di gunakan untuk melakukan test program me
      mvn -Dtest=ValidationTest test
      ```
 
-     Output
+     Berikut merupakan output dari hasil pengujian semua method yang terdapat pada class ValidationTest
 
      
    - Perintah untuk menguji semua method test pada class CalculatorOperationsTest
@@ -97,7 +97,7 @@ Berikut merupakan perintah yang dapat di gunakan untuk melakukan test program me
      mvn -Dtest=CalculatorOperationsTest test
      ```
 
-     Output
+     Berikut merupakan output dari hasil pengujian semua method yang terdapat pada class CalculatorOperationsTest
 
      
    - Perintah untuk menguji semua method test pada class MainTest
@@ -106,10 +106,12 @@ Berikut merupakan perintah yang dapat di gunakan untuk melakukan test program me
      mvn -Dtest=MainTest test
      ```
 
-     Output
+     Berikut merupakan output dari hasil pengujian semua method yang terdapat pada class MainTest
+
+     <img width="700" alt="contoh tampilan aplikasi" src="https://github.com/berlianalfd/JavaCalcApp/assets/143075674/5913fc3e-b383-44b1-be53-a2ad4751aa99">
 
      
-4. Perintah dibawah digunakan untuk menguji satu method test spesifik dari satu class test.
+3. Perintah dibawah digunakan untuk menguji satu method test spesifik dari satu class test.
    
    - Berikut merupakan perintah untuk menguji method test spesifik yang terdapat pada class ValidationTest
 
@@ -118,6 +120,7 @@ Berikut merupakan perintah yang dapat di gunakan untuk melakukan test program me
      ```
      
      Contohnya
+     
      Berikut perintah untuk menguji method ....    
        
    - Berikut merupakan perintah untuk menguji method test spesifik yang terdapat pada class CalculatorOperationsTest
@@ -127,6 +130,7 @@ Berikut merupakan perintah yang dapat di gunakan untuk melakukan test program me
      ```
   
      Contohnya
+     
      Berikut perintah untuk menguji method ....
 
    - Berikut merupakan perintah untuk menguji method test spesifik yang terdapat pada class MainTest
@@ -136,12 +140,14 @@ Berikut merupakan perintah yang dapat di gunakan untuk melakukan test program me
      ```
   
      Contohnya
+     
      Berikut perintah untuk menguji method testAngkaPertamaLebihDariRange yang merupakan test untuk untuk angka pertama yang nilainya lebih dari range
+     
      ```sh
      mvn -Dtest=MainTest#testAngkaPertamaLebihDariRange test
      ```
      
-     Output
+     Berikut merupakan output dari hasil pengujian method testAngkaPertamaLebihDariRange yang terdapat pada class MainTest
      
      <img width="700" alt="contoh tampilan aplikasi" src="https://github.com/berlianalfd/JavaCalcApp/assets/143075674/f69bfb8c-0e51-4a31-bd30-05ca6d30f677">
      
