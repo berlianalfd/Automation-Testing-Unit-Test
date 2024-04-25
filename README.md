@@ -140,7 +140,7 @@ Berikut merupakan perintah yang dapat di gunakan untuk melakukan test program me
      
 ## Generate report by tools
 
-Generate report dilakukan dengan menggunakan tools maven. Sebelumnya, harus menambahkan <reporting> pada file pom.xml yang terdapat pada line (31 sampai 40). 
+Berikut merupakan generate report yang dilakukan dengan menggunakan **Plugin Surefire Report** dalam Maven. Dimana, plugin tersebut dapat digunakan untuk menghasilkan laporan hasil eksekusi tes unit Anda dalam format HTML 
 
 1. Berikut merupakan perintah untuk generate report menggunakan maven
 
