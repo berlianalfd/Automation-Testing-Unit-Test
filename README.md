@@ -41,7 +41,7 @@ Berikut merupakan contoh tampilan dari program
 ## Struktur File Program
 Berikut merupakan struktur file dari program kalkulator yang Kami buat
 
-<img width="275" alt="foldersite" src="https://github.com/berlianalfd/JavaCalcApp/assets/95121218/9e2479e5-1d2f-4224-a95a-0af98a96a7b2">
+<img width="475" alt="foldersite" src="https://github.com/berlianalfd/JavaCalcApp/assets/95121218/9e2479e5-1d2f-4224-a95a-0af98a96a7b2">
 
 1. **main/java/calculator**
 
@@ -84,11 +84,12 @@ Berikut merupakan struktur file dari program kalkulator yang Kami buat
 3. **target**
 
    Folder ini digunakan oleh sistem build Java untuk menyimpan file class yang dikompilasi dan artefak lain yang dihasilkan atau dibuat secara otomatis selama proses build. 
+
+   <img width="475" alt="foldersite" src="https://github.com/berlianalfd/JavaCalcApp/assets/95121218/d872256a-8cd5-4632-b30f-6de5c94fe73a">
    
-4. **pom.xml**
+5. **pom.xml**
 
    File ini adalah project object model (POM) untuk project Java Kami. Ini menentukan dependensi project pada library dan framework lain, serta pengaturan                      konfigurasi untuk proses build.
-
 
 ## Notes
 
