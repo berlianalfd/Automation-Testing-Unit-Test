@@ -57,16 +57,16 @@ Berikut merupakan struktur file dari program kalkulator yang Kami buat
      
      <img width="275" alt="foldersite" src="https://github.com/berlianalfd/JavaCalcApp/assets/95121218/099fbf77-40d0-410f-9e4f-a27b4fd4e9d7">
      
-2. test/java/calculator
+3. test/java/calculator
    Folder ini berisi unit test program Kami. Unit test digunakan untuk menguji unit kode individual secara terpisah untuk memastikan fungsinya sesuai harapan. Dalam hal        ini, file berisi Test Case untuk fungsi yang diterapkan dalam file terkait dari folder main/java/calculator:
    - CalculatorOperationsTest.java
    - MainTest.java
    - ValidationTest.java
    
-3. target
+4. target
    Folder ini digunakan oleh sistem build Java untuk menyimpan file class yang dikompilasi dan artefak lain yang dihasilkan selama proses build.
    
-4. pom.xml
+5. pom.xml
    File ini adalah project object model (POM) untuk project Java Kami. Ini menentukan dependensi project pada library dan framework lain, serta pengaturan                      konfigurasi untuk proses build.
 
 
