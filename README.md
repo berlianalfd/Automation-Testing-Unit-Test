@@ -52,7 +52,7 @@ Berikut merupakan struktur file dari program kalkulator yang Kami buat
           
    - **Main.java**: File bertanggung jawab untuk menginisialisasi kalkulator, menangani input pengguna, dan memanggil metode yang sesuai dari CalculatorOperations.java           untuk melakukan perhitungan.
      
-     <img width="455" alt="foldersite" src="https://github.com/berlianalfd/JavaCalcApp/assets/95121218/38102b9a-2a81-4685-9dc0-8e99a7a97fd5">
+     <img width="555" alt="foldersite" src="https://github.com/berlianalfd/JavaCalcApp/assets/95121218/38102b9a-2a81-4685-9dc0-8e99a7a97fd5">
      
    - **Validation.java**: File ini berisi kode untuk memvalidasi input pengguna, memastikan angka yang dimasukkan valid dan dalam format yang benar untuk                         perhitungan, serta operasi perhitungan yang dimasukkan valid sesuai dengan yang ditetapkan (+, -, *, /).
      
