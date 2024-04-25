@@ -41,7 +41,7 @@ Berikut merupakan contoh tampilan dari program
 ## Struktur File Program
 Berikut merupakan struktur file dari program kalkulator yang Kami buat
 
-<img width="475" alt="foldersite" src="https://github.com/berlianalfd/JavaCalcApp/assets/95121218/9e2479e5-1d2f-4224-a95a-0af98a96a7b2">
+<img width="375" alt="foldersite" src="https://github.com/berlianalfd/JavaCalcApp/assets/95121218/9e2479e5-1d2f-4224-a95a-0af98a96a7b2">
 
 1. **main/java/calculator**
 
