@@ -71,11 +71,14 @@ Berikut merupakan struktur file dari program kalkulator yang Kami buat
    - **MainTest.java**
 
      File ini berisi unit test untuk Class Main. Unit test dalam file dibuat sebanyak 10 Test Case dan ini dirancang untuk memastikan bahwa Class Main berfungsi dengan           benar dan berinteraksi dengan Class CalculatorOperations.
-     
+
+     <img width="555" alt="foldersite" src="https://github.com/berlianalfd/JavaCalcApp/assets/95121218/b0dd56ca-04fb-46a1-93f7-0085ff58da45">
      
    - **ValidationTest.java**
 
      File ini berisi unit test untuk Class Validation. Unit test dalam file ini dibuat sebanyak 15 Test Case dan dirancang untuk memastikan bahwa kelas Validation berfungsi      dengan benar dan memvalidasi input pengguna.
+
+     <img width="555" alt="foldersite" src="https://github.com/berlianalfd/JavaCalcApp/assets/95121218/ab1a721e-c2de-4bf8-a650-8b95ac18224e">
 
    
 3. **target**
