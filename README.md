@@ -38,6 +38,33 @@ Berikut merupakan contoh tampilan dari program
 - Framework Unit testing : JUnit 
 - Bahasa pemrograman : Java
 
+## Struktur File Program
+Berikut merupakan struktur file dari program kalkulator yang Kami buat
+<img width="275" alt="foldersite" src="https://github.com/berlianalfd/JavaCalcApp/assets/95121218/9e2479e5-1d2f-4224-a95a-0af98a96a7b2">
+
+1. main/java/calculator
+   Folder ini berisi kode sumber Java inti untuk aplikasi kalkulator Kami. Ini termasuk file-file berikut:
+   - **CalculatorOperations.java**: File ini berisi kode untuk operasi matematika yang dapat dilakukan program kalkulator Kami, seperti penjumlahan, pengurangan,                 perkalian, dan pembagian.
+     <img width="275" alt="foldersite" src="https://github.com/berlianalfd/JavaCalcApp/assets/95121218/4925a67a-b2a2-4d6f-9189-c165f2f389aa">
+          
+   - **Main.java**: File bertanggung jawab untuk menginisialisasi kalkulator, menangani input pengguna, dan memanggil metode yang sesuai dari CalculatorOperations.java           untuk melakukan perhitungan.
+     <img width="275" alt="foldersite" src="https://github.com/berlianalfd/JavaCalcApp/assets/95121218/38102b9a-2a81-4685-9dc0-8e99a7a97fd5">
+     
+   - **Validation.java**: File ini berisi kode untuk memvalidasi input pengguna, memastikan angka yang dimasukkan valid dan dalam format yang benar untuk                         perhitungan.
+     <img width="275" alt="foldersite" src="https://github.com/berlianalfd/JavaCalcApp/assets/95121218/099fbf77-40d0-410f-9e4f-a27b4fd4e9d7">
+     
+2. test/java/calculator
+   Folder ini berisi unit test program Kami. Unit test digunakan untuk menguji unit kode individual secara terpisah untuk memastikan fungsinya sesuai harapan. Dalam hal        ini, file berisi Test Case untuk fungsi yang diterapkan dalam file terkait dari folder main/java/calculator:
+   - CalculatorOperationsTest.java
+   - MainTest.java
+   - ValidationTest.java
+   
+3. target
+   Folder ini digunakan oleh sistem build Java untuk menyimpan file class yang dikompilasi dan artefak lain yang dihasilkan selama proses build.
+   
+4. pom.xml
+   File ini adalah project object model (POM) untuk project Java Kami. Ini menentukan dependensi project pada library dan framework lain, serta pengaturan                      konfigurasi untuk proses build.
+
 
 ## Notes
 
@@ -48,7 +75,6 @@ Berikut merupakan contoh tampilan dari program
 5. Program hanya dapat menerima input dua angka. Ini berarti operasi yang memerlukan lebih dari dua operand, seperti perkalian matrik atau kalkulasi persentase, tidak dapat     dilakukan.
 6. Program hanya dapat menerima input bilangan bulat. Ini berarti angka desimal (float) tidak dapat diproses.
 7. Hasil perhitungan akan selalu berupa bilangan bulat.
-
 
 ## Running the program
 1. Menjalankan perintah berikut pada terminal untuk mengkompilasi source code menjadi file JAR.
