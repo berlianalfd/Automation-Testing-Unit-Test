@@ -80,7 +80,7 @@ Berikut merupakan struktur file dari program kalkulator yang Kami buat
    
 3. **target**
 
-   Folder ini digunakan oleh sistem build Java untuk menyimpan file class yang dikompilasi dan artefak lain yang dihasilkan selama proses build.
+   Folder ini digunakan oleh sistem build Java untuk menyimpan file class yang dikompilasi dan artefak lain yang dihasilkan atau dibuat secara otomatis selama proses build. 
    
 4. **pom.xml**
 
