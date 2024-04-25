@@ -48,15 +48,15 @@ Berikut merupakan struktur file dari program kalkulator yang Kami buat
    Folder ini berisi kode sumber Java inti untuk aplikasi kalkulator Kami. Ini termasuk file-file berikut:
    - **CalculatorOperations.java**: File ini berisi kode untuk operasi matematika yang dapat dilakukan program kalkulator Kami, seperti penjumlahan, pengurangan,                 perkalian, dan pembagian.
      
-     <img width="475" alt="foldersite" src="https://github.com/berlianalfd/JavaCalcApp/assets/95121218/4925a67a-b2a2-4d6f-9189-c165f2f389aa">
+     <img width="555" alt="foldersite" src="https://github.com/berlianalfd/JavaCalcApp/assets/95121218/4925a67a-b2a2-4d6f-9189-c165f2f389aa">
           
    - **Main.java**: File bertanggung jawab untuk menginisialisasi kalkulator, menangani input pengguna, dan memanggil metode yang sesuai dari CalculatorOperations.java           untuk melakukan perhitungan.
      
-     <img width="275" alt="foldersite" src="https://github.com/berlianalfd/JavaCalcApp/assets/95121218/38102b9a-2a81-4685-9dc0-8e99a7a97fd5">
+     <img width="555" alt="foldersite" src="https://github.com/berlianalfd/JavaCalcApp/assets/95121218/38102b9a-2a81-4685-9dc0-8e99a7a97fd5">
      
    - **Validation.java**: File ini berisi kode untuk memvalidasi input pengguna, memastikan angka yang dimasukkan valid dan dalam format yang benar untuk                         perhitungan.
      
-     <img width="275" alt="foldersite" src="https://github.com/berlianalfd/JavaCalcApp/assets/95121218/099fbf77-40d0-410f-9e4f-a27b4fd4e9d7">
+     <img width="555" alt="foldersite" src="https://github.com/berlianalfd/JavaCalcApp/assets/95121218/099fbf77-40d0-410f-9e4f-a27b4fd4e9d7">
 
      
 2. **test/java/calculator**
@@ -66,7 +66,7 @@ Berikut merupakan struktur file dari program kalkulator yang Kami buat
 
      File ini berisi unit test untuk Class CalculatorOperations. Unit test dalam file ini dibuat sebanyak 4 Test Case dan dirancang untuk memastikan bahwa operasi                matematika ini diimplementasikan dengan benar dan menghasilkan hasil yang diharapkan.
 
-     <img width="275" alt="foldersite" src="https://github.com/berlianalfd/JavaCalcApp/assets/95121218/fef278f5-c989-4f46-b51a-27dbcfb58a3a">
+     <img width="555" alt="foldersite" src="https://github.com/berlianalfd/JavaCalcApp/assets/95121218/fef278f5-c989-4f46-b51a-27dbcfb58a3a">
      
    - **MainTest.java**
 
