@@ -72,7 +72,7 @@ Berikut merupakan struktur file dari program kalkulator yang Kami buat
 
      File ini berisi unit test untuk Class Main. Unit test dalam file dibuat sebanyak 10 Test Case dan ini dirancang untuk memastikan bahwa Class Main berfungsi dengan           benar dan berinteraksi dengan Class CalculatorOperations.
 
-     <img width="555" alt="foldersite" src="https://github.com/berlianalfd/JavaCalcApp/assets/95121218/528077e5-e12f-4a1c-9919-b04e011425ea">
+     <img width="455" alt="foldersite" src="https://github.com/berlianalfd/JavaCalcApp/assets/95121218/cf8f66c0-d2b9-45e0-857f-42d1191e1c49">
      
    - **ValidationTest.java**
 
