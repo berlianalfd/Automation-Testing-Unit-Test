@@ -48,7 +48,7 @@ Berikut merupakan struktur file dari program kalkulator yang Kami buat
    Folder ini berisi kode sumber Java inti untuk aplikasi kalkulator Kami. Ini termasuk file-file berikut:
    - **CalculatorOperations.java**: File ini berisi kode untuk operasi matematika yang dapat dilakukan program kalkulator Kami, seperti penjumlahan, pengurangan,                 perkalian, dan pembagian.
      
-     <img width="275" alt="foldersite" src="https://github.com/berlianalfd/JavaCalcApp/assets/95121218/4925a67a-b2a2-4d6f-9189-c165f2f389aa">
+     <img width="475" alt="foldersite" src="https://github.com/berlianalfd/JavaCalcApp/assets/95121218/4925a67a-b2a2-4d6f-9189-c165f2f389aa">
           
    - **Main.java**: File bertanggung jawab untuk menginisialisasi kalkulator, menangani input pengguna, dan memanggil metode yang sesuai dari CalculatorOperations.java           untuk melakukan perhitungan.
      
