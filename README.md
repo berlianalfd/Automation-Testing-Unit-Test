@@ -64,19 +64,19 @@ Berikut merupakan struktur file dari program kalkulator yang Kami buat
    Folder ini berisi unit test program Kami. Unit test digunakan untuk menguji unit kode individual secara terpisah untuk memastikan fungsinya sesuai harapan. Dalam hal        ini, file berisi Test Case untuk fungsi yang diterapkan dalam file terkait dari folder main/java/calculator:
    - **CalculatorOperationsTest.java**
 
-     File ini berisi unit test untuk Class CalculatorOperations. Unit test dalam file ini dibuat sebanyak 4 Test Case dan dirancang untuk memastikan bahwa operasi                matematika ini diimplementasikan dengan benar dan menghasilkan hasil yang diharapkan.
+     File ini berisi unit test untuk Class CalculatorOperations. Unit test dalam file ini terdapat sebanyak 4 Test Case dan dirancang untuk memastikan bahwa operasi                matematika ini diimplementasikan dengan benar dan menghasilkan hasil yang diharapkan.
 
      <img width="555" alt="foldersite" src="https://github.com/berlianalfd/JavaCalcApp/assets/95121218/69339242-6fc0-4e8f-b712-806f09fb4a14">
      
    - **MainTest.java**
 
-     File ini berisi unit test untuk Class Main. Unit test dalam file dibuat sebanyak 10 Test Case dan ini dirancang untuk memastikan bahwa Class Main berfungsi dengan           benar dan berinteraksi dengan Class CalculatorOperations.
+     File ini berisi unit test untuk Class Main. Unit test dalam file terdapat sebanyak 10 Test Case dan ini dirancang untuk memastikan bahwa Class Main berfungsi dengan           benar dan berinteraksi dengan Class CalculatorOperations.
 
      <img width="455" alt="foldersite" src="https://github.com/berlianalfd/JavaCalcApp/assets/95121218/cf8f66c0-d2b9-45e0-857f-42d1191e1c49">
      
    - **ValidationTest.java**
 
-     File ini berisi unit test untuk Class Validation. Unit test dalam file ini dibuat sebanyak 15 Test Case dan dirancang untuk memastikan bahwa kelas Validation berfungsi      dengan benar dan memvalidasi input pengguna.
+     File ini berisi unit test untuk Class Validation. Unit test dalam file ini terdapat sebanyak 15 Test Case dan dirancang untuk memastikan bahwa kelas Validation              berfungsi dengan benar dan memvalidasi input pengguna.
 
      <img width="555" alt="foldersite" src="https://github.com/berlianalfd/JavaCalcApp/assets/95121218/b3f34fa0-4072-4079-a7ed-5d765b3a343c">
 
