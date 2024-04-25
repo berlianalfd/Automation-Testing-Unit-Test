@@ -44,6 +44,7 @@ Berikut merupakan struktur file dari program kalkulator yang Kami buat
 <img width="275" alt="foldersite" src="https://github.com/berlianalfd/JavaCalcApp/assets/95121218/9e2479e5-1d2f-4224-a95a-0af98a96a7b2">
 
 1. **main/java/calculator**
+
    Folder ini berisi kode sumber Java inti untuk aplikasi kalkulator Kami. Ini termasuk file-file berikut:
    - **CalculatorOperations.java**: File ini berisi kode untuk operasi matematika yang dapat dilakukan program kalkulator Kami, seperti penjumlahan, pengurangan,                 perkalian, dan pembagian.
      
@@ -56,25 +57,33 @@ Berikut merupakan struktur file dari program kalkulator yang Kami buat
    - **Validation.java**: File ini berisi kode untuk memvalidasi input pengguna, memastikan angka yang dimasukkan valid dan dalam format yang benar untuk                         perhitungan.
      
      <img width="275" alt="foldersite" src="https://github.com/berlianalfd/JavaCalcApp/assets/95121218/099fbf77-40d0-410f-9e4f-a27b4fd4e9d7">
+
      
-3. **test/java/calculator**
+2. **test/java/calculator**
+
    Folder ini berisi unit test program Kami. Unit test digunakan untuk menguji unit kode individual secara terpisah untuk memastikan fungsinya sesuai harapan. Dalam hal        ini, file berisi Test Case untuk fungsi yang diterapkan dalam file terkait dari folder main/java/calculator:
    - **CalculatorOperationsTest.java**
+
      File ini berisi unit test untuk Class CalculatorOperations. Unit test dalam file ini dibuat sebanyak 4 Test Case dan dirancang untuk memastikan bahwa operasi                matematika ini diimplementasikan dengan benar dan menghasilkan hasil yang diharapkan.
 
      <img width="275" alt="foldersite" src="https://github.com/berlianalfd/JavaCalcApp/assets/95121218/fef278f5-c989-4f46-b51a-27dbcfb58a3a">
      
    - **MainTest.java**
+
      File ini berisi unit test untuk Class Main. Unit test dalam file dibuat sebanyak 10 Test Case dan ini dirancang untuk memastikan bahwa Class Main berfungsi dengan           benar dan berinteraksi dengan Class CalculatorOperations.
      
      
    - **ValidationTest.java**
+
      File ini berisi unit test untuk Class Validation. Unit test dalam file ini dibuat sebanyak 15 Test Case dan dirancang untuk memastikan bahwa kelas Validation berfungsi      dengan benar dan memvalidasi input pengguna.
+
    
-4. **target**
+3. **target**
+
    Folder ini digunakan oleh sistem build Java untuk menyimpan file class yang dikompilasi dan artefak lain yang dihasilkan selama proses build.
    
-5. **pom.xml**
+4. **pom.xml**
+
    File ini adalah project object model (POM) untuk project Java Kami. Ini menentukan dependensi project pada library dan framework lain, serta pengaturan                      konfigurasi untuk proses build.
 
 
