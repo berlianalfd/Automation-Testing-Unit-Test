@@ -52,7 +52,7 @@ Berikut merupakan struktur file dari program kalkulator yang Kami buat
           
    - **Main.java**: File bertanggung jawab untuk menginisialisasi kalkulator, menangani input pengguna, dan memanggil metode yang sesuai dari CalculatorOperations.java           untuk melakukan perhitungan.
      
-     <img width="555" alt="foldersite" src="https://github.com/berlianalfd/JavaCalcApp/assets/95121218/38102b9a-2a81-4685-9dc0-8e99a7a97fd5">
+     <img width="455" alt="foldersite" src="https://github.com/berlianalfd/JavaCalcApp/assets/95121218/38102b9a-2a81-4685-9dc0-8e99a7a97fd5">
      
    - **Validation.java**: File ini berisi kode untuk memvalidasi input pengguna, memastikan angka yang dimasukkan valid dan dalam format yang benar untuk                         perhitungan, serta operasi perhitungan yang dimasukkan valid sesuai dengan yang ditetapkan (+, -, *, /).
      
@@ -66,19 +66,19 @@ Berikut merupakan struktur file dari program kalkulator yang Kami buat
 
      File ini berisi unit test untuk Class CalculatorOperations. Unit test dalam file ini dibuat sebanyak 4 Test Case dan dirancang untuk memastikan bahwa operasi                matematika ini diimplementasikan dengan benar dan menghasilkan hasil yang diharapkan.
 
-     <img width="555" alt="foldersite" src="https://github.com/berlianalfd/JavaCalcApp/assets/95121218/fef278f5-c989-4f46-b51a-27dbcfb58a3a">
+     <img width="555" alt="foldersite" src="https://github.com/berlianalfd/JavaCalcApp/assets/95121218/69339242-6fc0-4e8f-b712-806f09fb4a14">
      
    - **MainTest.java**
 
      File ini berisi unit test untuk Class Main. Unit test dalam file dibuat sebanyak 10 Test Case dan ini dirancang untuk memastikan bahwa Class Main berfungsi dengan           benar dan berinteraksi dengan Class CalculatorOperations.
 
-     <img width="555" alt="foldersite" src="https://github.com/berlianalfd/JavaCalcApp/assets/95121218/b0dd56ca-04fb-46a1-93f7-0085ff58da45">
+     <img width="555" alt="foldersite" src="https://github.com/berlianalfd/JavaCalcApp/assets/95121218/528077e5-e12f-4a1c-9919-b04e011425ea">
      
    - **ValidationTest.java**
 
      File ini berisi unit test untuk Class Validation. Unit test dalam file ini dibuat sebanyak 15 Test Case dan dirancang untuk memastikan bahwa kelas Validation berfungsi      dengan benar dan memvalidasi input pengguna.
 
-     <img width="555" alt="foldersite" src="https://github.com/berlianalfd/JavaCalcApp/assets/95121218/ab1a721e-c2de-4bf8-a650-8b95ac18224e">
+     <img width="555" alt="foldersite" src="https://github.com/berlianalfd/JavaCalcApp/assets/95121218/b3f34fa0-4072-4079-a7ed-5d765b3a343c">
 
    
 3. **target**
